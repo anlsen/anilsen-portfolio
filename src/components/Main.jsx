@@ -31,7 +31,7 @@ const Main = () => {
     return (
     <div id='main'>
 
-        <div className='w-full h-screen absolute top-0 left-0'>
+        <div className='w-full h-dvh absolute top-0 left-0'>
             <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center'>
                 <h1 className='sm:text-5xl text-4xl font-bold text-gray-200'>I'm Anıl Şen</h1>
                 <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-200'>
@@ -61,7 +61,7 @@ const Main = () => {
 
             
             { init && <Particles
-                    className='w-full h-screen'
+                    className='w-full h-dvh'
                     id="tsparticles"
                     particlesLoaded={particlesLoaded}
                     options={{
