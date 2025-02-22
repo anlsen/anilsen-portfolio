@@ -33,32 +33,32 @@ const Sidenav = () => {
             onClick={closeNav}
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
-            <AiOutlineHome size={20} />
-            <span className="pl-4">Home</span>
+            <AiOutlineHome fill="text-[#3b3c45]" size={20} />
+            <span className="pl-4 text-[#3b3c45]">Home</span>
           </a>
           <a
             href="#projects"
             onClick={closeNav}
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
-            <GrProjects size={20} />
-            <span className="pl-4">Projects</span>
+            <GrProjects fill="text-[#3b3c45]" size={20} />
+            <span className="pl-4 text-[#3b3c45]">Projects</span>
           </a>
           <a
             href="#resume"
             onClick={closeNav}
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
-            <IoIosContact size={20} />
-            <span className="pl-4">Resume</span>
+            <IoIosContact fill="text-[#3b3c45]" size={20} />
+            <span className="pl-4 text-[#3b3c45]">Resume</span>
           </a>
           <a
             href="#contact"
             onClick={closeNav}
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
-            <FaEnvelope size={20} />
-            <span className="pl-4">Contact</span>
+            <FaEnvelope fill="text-[#3b3c45]" size={20} />
+            <span className="pl-4 text-[#3b3c45]">Contact</span>
           </a>
         </div>
       )}

@@ -8,8 +8,8 @@ import dataImg from "../assets/data-analysis.png";
 const Projects = () => {
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 md:pr-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-gray-800">Projects</h1>
-      <p className="text-center text-xl py-8">
+      <h1 className="text-4xl font-bold text-center text-[#3b3c45]">Projects</h1>
+      <p className="text-center text-xl py-8 text-[#3b3c45]">
         A collection of highlighted projects showcasing diverse skills and technologies.
       </p>
       <motion.div
