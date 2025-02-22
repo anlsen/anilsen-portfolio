@@ -29,7 +29,7 @@ const ProjectItem = ({ img, title, link }) => {
           {title}
         </h3>
         <a href={link}>
-          <p className='text-center p-2 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-sm'>
+          <p className='text-center p-2  bg-white rounded-lg visible text-[#3b3c45] hover:scale-110 ease-in duration-200 font-bold cursor-pointer text-sm'>
             More Info
           </p>
         </a>

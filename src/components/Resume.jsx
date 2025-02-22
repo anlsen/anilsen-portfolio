@@ -8,7 +8,7 @@ const Resume = () => {
         {/* View PDF Button */}
         <div className="flex justify-center mt-4">
             <a href="/anilsen-portfolio/assets/CV.pdf">
-            <p className="w-32 text-center p-2 rounded-lg bg-gray-200 text-[#3b3c45] font-bold cursor-pointer text-sm">
+            <p className="w-32 text-center p-2 rounded-lg visible bg-white text-[#3b3c45] font-bold cursor-pointer text-sm hover:scale-110 ease-in duration-200">
                 View PDF
             </p>
             </a>
