@@ -27,7 +27,7 @@ const Sidenav = () => {
 
       {/* Mobile Menu */}
       {nav && (
-        <div className="fixed w-full h-dvh bg-white/80 flex flex-col justify-center items-center z-20">
+        <div className="fixed w-full h-dvh bg-white flex flex-col justify-center items-center z-20">
           <a
             href="#main"
             onClick={closeNav}
