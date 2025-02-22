@@ -3,6 +3,7 @@
 :root{
   --primary-color: #3b3c45;
   color-scheme: light dark;
+  background-color: whitesmoke;
 }
 
 *{
