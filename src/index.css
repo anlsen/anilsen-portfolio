@@ -2,13 +2,9 @@
 
 :root{
   --primary-color: #3b3c45;
-  color-scheme: light dark;
+  color-scheme: light;
 }
 
 *{
   scroll-behavior: smooth;
-}
-
-button {
-  -webkit-appearance: none;
 }
