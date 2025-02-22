@@ -20,12 +20,12 @@ const Projects = () => {
         viewport={{ once: true }}
       >
         <ProjectItem
-          link="https://github.com/anlsen/Election_Sentiment_and_Popularity_Analysis_In_Turkiye"
+          link="https://github.com/anlsen/NoteBridge-Web-App"
           img={notebridgeImg}
           title="NoteBridge Web Application"
         />
         <ProjectItem
-          link="https://github.com/anlsen/NoteBridge-Web-App"
+          link="https://github.com/anlsen/Election_Sentiment_and_Popularity_Analysis_In_Turkiye"
           img={dataImg}
           title="Data Sentiment Analysis on Elections 2023"
         />

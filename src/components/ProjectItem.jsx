@@ -28,7 +28,7 @@ const ProjectItem = ({ img, title, link }) => {
         <h3 className='text-xl m-2 font-bold text-white tracking-wider text-center'>
           {title}
         </h3>
-        <a href={link}>
+        <a target='_blank' href={link}>
           <p className='text-center p-2  bg-white rounded-lg visible text-[#3b3c45] hover:scale-110 ease-in duration-200 font-bold cursor-pointer text-sm'>
             More Info
           </p>
