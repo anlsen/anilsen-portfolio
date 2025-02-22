@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div id="contact" className="mt-12 text-center py-20">
         <h2 className="text-3xl font-bold text-[var(--primary-color)]">Contact</h2>
-        <p className="text-gray-600 mt-2">Feel free to reach out!</p>
+        <p className="visible text-[#3b3c45] mt-2">Feel free to reach out!</p>
         
         <div className="flex justify-center mt-4">
         <a href="mailto:anilsen@gmail.">
