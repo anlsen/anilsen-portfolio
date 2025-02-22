@@ -7,7 +7,7 @@ const Contact = () => {
         <p className="visible text-[#3b3c45] mt-2">Feel free to reach out!</p>
         
         <div className="flex justify-center mt-4">
-        <a href="mailto:anilsen@gmail.">
+        <a href="mailto:anilsen@sabanciuniv.edu">
             <IoMdMail className='cursor-pointer hover:scale-110 ease-in duration-200' fill='var(--primary-color)' size={40}/>
         </a>
         </div>
