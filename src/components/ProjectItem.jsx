@@ -11,7 +11,7 @@ const ProjectItem = ({ img, title, link }) => {
     <div 
       className={`relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl 
         group hover:bg-gradient-to-r from-gray-400 to-[var(--primary-color)] hover:scale-110 ease-in duration-200 
-        ${isMobileActive ? "bg-gradient-to-r from-gray-400 to-[var(--primary-color)] scale-110" : ""}`}
+        ${isMobileActive ? "bg-[#3b3c45] text-gray-200 scale-110" : ""}`}
       onClick={handleClick} // Toggle on click for mobile
     >
       {/* Image with opacity change on hover or mobile click */}
@@ -23,7 +23,7 @@ const ProjectItem = ({ img, title, link }) => {
       {/* Text & Button, visible on hover (desktop) or click (mobile) */}
       <div 
         className={`absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] 
-          ${isMobileActive ? "block" : "hidden group-hover:block"}`}
+          ${isMobileActive ? "block text-gray-200" : "hidden group-hover:block"}`}
       >
         <h3 className='text-xl m-2 font-bold text-white tracking-wider text-center'>
           {title}

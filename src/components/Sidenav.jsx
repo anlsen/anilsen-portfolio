@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineHome } from "react-icons/ai";
-import { GrProjects } from "react-icons/gr";
+import { FaDiagramProject } from "react-icons/fa6";
 import { FaEnvelope } from "react-icons/fa";
 import { IoIosContact } from "react-icons/io";
 
@@ -27,7 +27,7 @@ const Sidenav = () => {
 
       {/* Mobile Menu */}
       {nav && (
-        <div className="fixed w-full h-dvh bg-white flex flex-col justify-center items-center z-20">
+        <div className="fixed w-full h-dvh bg-white/80 flex flex-col justify-center items-center z-20">
           <a
             href="#main"
             onClick={closeNav}
@@ -41,7 +41,7 @@ const Sidenav = () => {
             onClick={closeNav}
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
-            <GrProjects fill="text-[#3b3c45]" size={20} />
+            <FaDiagramProject fill="text-[#3b3c45]" size={20} />
             <span className="pl-4 text-[#3b3c45]">Projects</span>
           </a>
           <a
@@ -76,7 +76,7 @@ const Sidenav = () => {
             href="#projects"
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
-            <GrProjects size={20} />
+            <FaDiagramProject size={20} />
           </a>
           <a
             href="#resume"
